@@ -217,7 +217,7 @@ public Action Cmd_ItemDrugs(int args) {
 	else if( StrEqual(arg0, "cocaine") ) {
 		rp_HookEvent(client, RP_PreHUDColorize, fwdCocaine, dur);
 	}
-	else if( StrEqual(arg0, "champigions") ) {
+	else if( StrEqual(arg0, "champignons") ) {
 		rp_HookEvent(client, RP_PrePlayerPhysic, fwdChampi, dur);
 		
 		rp_SetClientFloat(client, fl_HallucinationTime, GetGameTime() + dur);
