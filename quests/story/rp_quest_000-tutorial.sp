@@ -460,7 +460,7 @@ public Action fwdUsePhone(int client) {
 		
 		Handle panel = CreateMenu(MenuNothing);
 		SetMenuTitle(panel, "== Objectif 9: Les quêtes\n\n Un hélicoptère vous envois un colis.\nIl sera envoyé près de vous,\ndans la rue du commerce.");
-		AddMenuItem(panel, "_", "Récupérez le.", ITEMDRAW_DISABLED);
+		AddMenuItem(panel, "_", "Récupérer le.", ITEMDRAW_DISABLED);
 		DisplayMenu(panel, client, 10);
 	}
 }
