@@ -42,7 +42,7 @@ public void OnAllPluginsLoaded() {
 	PVE_SetInt(id, ESI_MinSkin, 		15);
 	PVE_SetInt(id, ESI_MaxSkin, 		29);
 	
-	PVE_SetFloat(id, ESF_Speed,			280.0);
+	PVE_SetFloat(id, ESF_Speed,			235.0);
 	PVE_SetFloat(id, ESF_Gravity,		1.0);
 	PVE_SetFloat(id, ESF_ScaleSize,		1.0);
 	PVE_SetFloat(id, ESF_FeetSize,  	0.0);
